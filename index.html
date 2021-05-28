@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lange="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" />
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="" id="theme-link">
+<title>Course Work</title>
+</head>
+<body>
+    <header class="header">
+        <div class="theme-button" id="theme-button"></div>
+        <input type="file" id="file" class="input" hidden>
+        <label class="file" for="file"><img src="image/book.png"></label>
+        <div class="zoom-container">
+            <ul class="font-list">
+                <li><button class="font-small"></button></li>
+                <li><button class="font-medium"></button></li>
+                <li><button class="font-default"></button></li>
+                <li><button class="font-large"></button></li>
+            </ul>
+        </div>
+         <div class="progress-container">
+    <div class="progress-bar" id="progress-bar"></div>
+  </div>
+
+    </header>
+    <div class="container">
+        <div id="view">
+            <p></p>
+        </div>
+        <footer class="panel">
+            <button id="previous" class="previous" ></button>
+            <span id="current">Страница: </span>
+            <button id="next" class="next"></button>
+        </footer>
+    </div>
+    <script src="dist/js/bundle.js"></script>  
+</body>
+</html>
